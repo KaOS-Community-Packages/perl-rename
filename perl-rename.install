@@ -1,0 +1,9 @@
+post_install() {
+	post_upgrade
+}
+
+post_upgrade() {
+	echo -e '\e[0;32m If you wish to use perl-rename instead of rename'
+	echo -e '\e[0;32m add an alias in ~/.bashrc:'
+	echo -e '\e[0;33m echo "alias rename='"'perl-rename'"'" >> ~/.bashrc \e[0m'
+}
