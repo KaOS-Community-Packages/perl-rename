@@ -1,5 +1,5 @@
 pkgname=perl-rename
-pkgver=1.9
+pkgver=1.10
 pkgrel=1
 pkgdesc="Renames multiple files using Perl regular expressions."
 arch=('x86_64')
@@ -9,7 +9,7 @@ depends=('perl')
 options=(!emptydirs)
 install=${pkgname}.install
 source=(http://search.cpan.org/CPAN/authors/id/P/PE/PEDERST/rename-${pkgver}.tar.gz)
-md5sums=('16df2adde955a6867701564e3d7c6a52')
+md5sums=('3a99efefaf1446f9df265f6e740440e3')
 
 build() {
   cd "$srcdir/rename-$pkgver"
